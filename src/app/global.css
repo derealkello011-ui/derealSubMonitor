@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@theme {
+  --spacing-24: 96px;
+  --spacing-30: 120px;
+}
+
+@layer components {
+  .tabs-icon {
+    @apply size-12 items-center justify-center;
+  }
+
+  .tabs-pill {
+    @apply size-12 items-center justify-center rounded-full bg-transparent;
+  }
+
+  .tabs-active {
+    @apply bg-accent;
+  }
+
+  .tabs-glyph {
+    @apply size-6;
+  }
+}

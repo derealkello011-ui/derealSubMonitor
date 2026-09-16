@@ -1,4 +1,3 @@
-import '@/app/global.css';
 import { Stack } from 'expo-router';
 
 const RootLayout = () => {

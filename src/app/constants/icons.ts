@@ -13,8 +13,9 @@ const spotify = require("../../../assets/icons/spotify.png");
 const analytics = require("../../../assets/tabIcons/analytics_24.png");
 const dataExploration = require("../../../assets/tabIcons/data_exploration.png");
 const home = require("../../../assets/tabIcons/home_24.png");
-const settings = require( "../../../assets/tabIcons/settings_24.png" );
-const menu = require( "../../../assets/tabIcons/menu.png" );
+const settings = require("../../../assets/tabIcons/settings_24.png");
+const menu = require("../../../assets/tabIcons/menu.png");
+const wallet = require("../../../assets/icons/wallet.png");
 
 export const mediaIcons = [
     ai,
@@ -30,10 +31,11 @@ export const mediaIcons = [
     spotify,
 ] as const;
 
-export const tabIcons = [
-    home,
-    dataExploration,
-    analytics,
-    settings,
-    menu
-] as const;
+export const tabIcons = {
+  home,
+  dataExploration,
+  analytics,
+  settings,
+  menu,
+  wallet,
+} as const;
